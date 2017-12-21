@@ -1,4 +1,4 @@
+var buffer = new Buffer('TutorialsPoint');
 
-var buffer2 = new Buffer('Simply Easy Learning');
-
-console.log("buffer3 content: " + Buffer.concat([new Buffer('TutorialsPoint '), buffer2]).toString());
+//length of the buffer
+console.log("buffer length: " + buffer.size());
