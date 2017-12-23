@@ -13,7 +13,7 @@ app.get('/index.htm', function (req, res) {
 })
 
 //Form data obtaining using GET
-/*app.get('/process_get', function(req,res){
+app.get('/process_get', function(req,res){
 	//Prepare output in JSON format
 	response = {
 		first_name:req.query.first_name,
@@ -21,7 +21,7 @@ app.get('/index.htm', function (req, res) {
 	}
 	console.log(response);
 	res.end(JSON.stringify(response));
-})*/
+})
 
 //Form data obtaining using POST
 app.post('/process_post', urlencodedParser, function (req, res) {
